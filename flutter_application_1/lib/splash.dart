@@ -25,13 +25,9 @@ _navigatetohome()async{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
-        child: Container(
-          child: Text('E-commerce App', style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-          ),
-          )),
+        child: Image.asset('assets/pizza.jpg'),
       ),
     );
   }
